@@ -1,0 +1,9 @@
+Streamlit==1.55.0
+opencv-python==4.13.0.92
+torch==2.10.0
+openpyxl==3.1.5
+ultralytics==8.4.26
+tqdm==4.67.3
+seaborn==0.13.2
+pyzbar==0.1.9
+zxing-cpp==3.0.0
