@@ -10,9 +10,7 @@ from pipeline import AadhaarPipeline
 # ------------------------------------------------------------------------------
 st.set_page_config(page_title="Aadhaar QR Decoder", layout="wide")
 
-# ------------------------------------------------------------------------------
-# Hardcoded credentials
-# ------------------------------------------------------------------------------
+
 VALID_USERNAME = "admin"
 VALID_PASSWORD = "admin123"
 

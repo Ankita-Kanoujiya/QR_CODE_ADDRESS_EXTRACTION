@@ -7,6 +7,10 @@
 MODEL_PATH = "/app/best_qr_det_v3.pt"
 DB_PATH    = "/app/aadhaar.db"
 
+# MODEL_PATH = r"C:\Users\Ankita\Downloads\aadhaar_qr_decoder_fixed\aadhaar_qr_decoder_fixed\best_qr_det_v3.pt"
+# DB_PATH    = r"C:\Users\Ankita\Downloads\aadhaar_qr_decoder_fixed\aadhaar_qr_decoder_fixed\aadhaar.db"
+
+
 CSV_PATH   = None
 
 

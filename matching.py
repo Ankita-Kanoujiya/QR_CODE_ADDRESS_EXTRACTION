@@ -63,14 +63,8 @@ def combined_score(a: str, b: str) -> float:
     return 0.6 * token_overlap_score(a, b) + 0.4 * sequence_ratio(a, b)
 
 
-# ==============================================================================
-# KEY FIELD BONUS
-# Key fields that must match for a valid address — includes House now
-# to handle Wing A vs Wing B / Flat 101 vs Flat 202 cases
-# ==============================================================================
-
 KEY_FIELDS = [
-    "House",              # ← CRITICAL: Wing/Flat number
+    "House",              
     "State",
     "District",
     "Pincode",
